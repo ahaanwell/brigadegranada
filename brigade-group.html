@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+    <!-- SEO Title -->
+    <title>Brigade Group | History, Leadership & Real Estate Projects</title>
+
+    <!-- SEO Description -->
+    <meta name="description"
+        content="Discover Brigade Group, founded in 1986 by M.R. Jaishankar. Learn about its leadership, legacy, and 280+ completed real estate projects across 9 major Indian cities including Bangalore, Chennai, and Hyderabad.">
+
+    <!-- SEO Keywords -->
+    <meta name="keywords"
+        content="Brigade Group, Brigade Group history, M.R. Jaishankar, Brigade Group projects, Brigade real estate developer, Brigade Bangalore projects, Brigade Group leadership, Brigade Granada developer, Indian real estate company">
+
+    <meta name="author" content="Brigade Group">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.brigadegranada.gen.in/-brigade-group.html">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../images/favicon.ico">
+    <link rel="apple-touch-icon" href="../images/favicon.ico">
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Brigade Granada">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Brigade Group | Legacy & Real Estate Excellence">
+    <meta property="og:description"
+        content="Explore Brigade Group’s journey since 1986, its leadership under M.R. Jaishankar, and its 280+ landmark developments across India.">
+    <meta property="og:url" content="https://www.brigadegranada.gen.in/brigade-group.html">
+    <meta property="og:image" content="https://www.brigadegranada.gen.in/brigade-group.webp">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About Brigade Group | Leading Real Estate Developer in India">
+    <meta name="twitter:description"
+        content="Learn about Brigade Group’s history, leadership, and major real estate projects across India.">
+    <meta name="twitter:image" content="https://www.brigadegranada.gen.in/brigade-group.webp">
+
+    <!-- CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Redirect non-www to www -->
+    <script>
+        if (location.hostname === "brigadegranada.gen.in") {
+            location.href = "https://www.brigadegranada.gen.in" + location.pathname + location.search;
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <nav class="sticky top-0 bg-white z-50 shadow-sm" aria-label="Main Navigation">
+        <div class="flex justify-between items-center w-[95%] mx-auto py-1">
+
+            <!-- Logo -->
+            <a href="/">
+                <img class="w-[40px]" src="./images/logo.webp" alt="Sobha Logo">
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden lg:flex items-center text-[15px] font-medium">
+
+                <li><a class="nav-active" href="/">Home</a></li>
+                <li><a class="nav-not-active" href="/price.html">Price</a></li>
+                <li><a class="nav-not-active" href="/floor-plans.html">Floor Plan</a></li>
+                <li><a class="nav-not-active" href="/master-plan.html">Master Plan</a></li>
+                <li><a class="nav-not-active" href="/location.html">Location</a></li>
+                <li><a class="nav-not-active" href="/amenities.html">Amenities</a></li>
+                <li><a class="nav-not-active" href="/#gallery">Gallery</a></li>
+                <li class="nav-not-active cursor-pointer" onclick="openModel()">Brochure</li>
+
+                <!-- Phone Button -->
+                <li class="px-4">
+                    <a href="https://wa.me/+918317452005?text=Hi!%20I%27m%20Interested%20In%20Brigade%20Granada%20Please%20Share%20Details."
+                        class="bg-primary text-white px-4 py-2 rounded-full flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp"></i> +918317452005
+                    </a>
+                </li>
+
+            </ul>
+
+            <!-- Mobile Button -->
+            <button onclick="toggleMenu()" class="lg:hidden text-2xl">
+                <i class="fa fa-bars"></i>
+            </button>
+
+        </div>
+    </nav>
+
+    <div id="menu" class="fixed top-0 right-[-100%] w-[80%] h-full bg-white z-50 shadow-lg transition-all duration-300">
+
+        <div class="flex justify-between items-center p-4 border-b">
+            <span class="font-semibold">Menu</span>
+            <button onclick="toggleMenu()"><i class="fa fa-times text-xl"></i></button>
+        </div>
+
+        <ul class="flex flex-col p-5 gap-4 text-lg">
+
+            <li><a href="/" onclick="toggleMenu()" class="nav-active w-full">Home</a></li>
+            <li><a href="/price.html" onclick="toggleMenu()">Price</a></li>
+            <li><a href="/floor-plan.html" onclick="toggleMenu()">Floor Plan</a></li>
+            <li><a href="/master-plan.html" onclick="toggleMenu()">Master Plan</a></li>
+            <li><a href="/location.html" onclick="toggleMenu()">Location</a></li>
+            <li><a href="/amenities.html" onclick="toggleMenu()">Amenities</a></li>
+            <li><a href="/#gallery" onclick="toggleMenu()">Gallery</a></li>
+            <li onclick="openModel()">Brochure</li>
+
+            <li>
+                <a href="https://wa.me/+918317452005?text=Hi!%20I%27m%20Interested%20In%20Brigade%20Granada%20Please%20Share%20Details."
+                    class="bg-primary text-white px-4 py-2 rounded-full text-center block">
+                    <i class="fa-brands fa-whatsapp"> </i>+918317452005
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <section class="bg-gray-600 lg:h-[20vh] h-[10vh] flex justify-center items-center">
+        <div class="text-sm text-white mb-4 flex items-center gap-3">
+            <a href="/" class="hover:underline">Home</a> /
+            <p class="text-white font-semibold">Brigade Group</p>
+        </div>
+    </section>
+
+    <section class="py-8">
+        <div class="w-full max-w-5xl mx-auto px-4 py-8 text-gray-800 leading-relaxed">
+            <h1 class="text-2xl font-bold mb-4">Brigade Group</h1>
+            <div>
+                <img class="w-full mb-5" loading="lazy" src="./images/brigade-group.webp" alt="Brigade Group">
+            </div>
+            <div class="space-y-6">
+
+                <h2 class="text-2xl font-bold">Brigade Group Overview</h2>
+
+                <p>
+                    <a href="https://www.brigadegroup.com/" target="_blank" rel="noopener noreferrer"><b>Brigade Group</b></a> is one of India’s most established real estate developers, with a strong legacy that
+                    began in <b>1986 in Bangalore</b>. Founded by <b>M.R. Jaishankar</b>, the company has grown steadily over nearly
+                    four decades, shaping residential, commercial, retail, and hospitality developments across India.
+                </p>
+
+                <p>
+                    Today, Brigade Group operates in multiple major cities including Chennai, Hyderabad, Kochi, Mysuru,
+                    Mangaluru, Ahmedabad, and other fast-growing urban markets.
+                </p>
+
+                <p>
+                    With a track record of 280+ completed projects and over 86 million sq ft of developed space, the
+                    company has become a trusted name among homebuyers seeking quality construction and long-term value.
+                </p>
+
+                <h3 class="text-xl font-bold">Leadership of Brigade Group</h3>
+
+                <p>
+                    The company is led by its founder <b>M.R. Jaishankar</b>, who serves as the Executive Chairman. Under his
+                    leadership, Brigade evolved from a single-city developer into a diversified real estate brand with
+                    national presence.
+                </p>
+
+                <p>
+                    The next generation of leadership is actively involved in the company’s growth:
+                </p>
+
+                <p>Pavitra Shankar – Managing Director</p>
+                <p>Nirupa Shankar – Joint Managing Director</p>
+
+                <p>
+                    Their leadership brings a mix of strategic expansion and modern development practices, strengthening
+                    the brand’s position in India’s competitive real estate sector.
+                </p>
+
+                <h3 class="text-xl font-bold">Key Milestones in Brigade Group’s Growth</h3>
+
+                <p>Brigade Group has steadily expanded its footprint through major milestones:</p>
+
+                <p>1986 – Company founded in Bangalore</p>
+                <p>1990s – Expansion into commercial real estate</p>
+                <p>2004 – Launch of mixed-use development projects</p>
+                <p>2010 – Entry into hospitality with premium hotel developments</p>
+                <p>2013 – Listed on NSE India and BSE India</p>
+
+                <p>
+                    These milestones reflect the company’s evolution into a diversified real estate powerhouse.
+                </p>
+
+                <h3 class="text-xl font-bold">Brigade Group Projects Across India</h3>
+
+                <p>Brigade Group develops residential, commercial, and mixed-use projects across major Indian cities.
+                </p>
+
+                <h3 class="text-xl font-bold">Bangalore Projects</h3>
+
+                <p>Bangalore remains the core market for Brigade Group, with several landmark developments such as:</p>
+
+                <p>Brigade Exotica</p>
+                <p>Brigade Meadows</p>
+                <p>Brigade Lakecrest</p>
+                <p>Brigade Citrine</p>
+                <p>Brigade El Dorado</p>
+                <p>Brigade Orchards</p>
+                <p>Brigade Granada</p>
+
+                <p>
+                    Among these, <a href="https://www.brigadegranada.gen.in/"><strong>Brigade Granada</strong></a> is one of the latest residential developments in <a href="https://www.brigadegranada.gen.in/east-bangalore.html"><b>East Bangalore</b></a>,
+                    located on the <a href="https://www.brigadegranada.gen.in/hoskote.html"><b>Whitefield–Hoskote</b></a> corridor. The project spans around <b>20 acres</b> with approximately
+                    <b>2,000 apartments</b> in multiple configurations.
+                </p>
+
+                <h3 class="text-xl font-bold">Mysuru Projects</h3>
+
+                <p>Brigade Sapphire</p>
+                <p>Brigade Topaz</p>
+                <p>Brigade Horizon</p>
+                <p>Brigade Splendour</p>
+
+                <h3 class="text-xl font-bold">Hyderabad Projects</h3>
+
+                <p>Brigade Citadel</p>
+                <p>Brigade Gateway developments</p>
+                <p>Various commercial office spaces</p>
+
+                <h3 class="text-xl font-bold">Commercial & Mixed-Use Development</h3>
+
+                <p>
+                    Brigade Group also has a strong presence in commercial real estate. One of its early landmark
+                    developments was Brigade Towers on Brigade Road, Bangalore, which marked its entry into large-scale
+                    commercial projects.
+                </p>
+
+                <p>
+                    Over time, the company expanded into retail spaces, office complexes, and integrated townships,
+                    strengthening its diversified portfolio.
+                </p>
+
+                <h3 class="text-xl font-bold">Subsidiaries of Brigade Group</h3>
+
+                <p>Brigade Group operates through multiple subsidiaries that support different business verticals:</p>
+
+                <p>Mysore Projects Private Ltd</p>
+                <p>WTC Trades & Projects Pvt. Ltd.</p>
+                <p>Brigade Hotel Ventures Ltd</p>
+                <p>Brigade Properties Pvt. Ltd.</p>
+                <p>Brigade Construction Pvt. Ltd.</p>
+
+                <p>
+                    These entities work together to manage development, hospitality, construction, and commercial
+                    operations.
+                </p>
+
+                <h3 class="text-xl font-bold">Financial Strength & Performance</h3>
+
+                <p>Brigade Group has demonstrated strong financial performance with:</p>
+
+                <p>Revenue of approximately ₹2,384 Crore (FY25)</p>
+                <p>Net worth of around ₹25,900 Crore (2026 estimate)</p>
+                <p>280+ delivered projects across India</p>
+
+                <p>
+                    This financial stability reflects consistent demand, timely project delivery, and strong brand trust
+                    in the real estate market.
+                </p>
+
+                <h3 class="text-xl font-bold">Future Growth of Brigade Group</h3>
+
+                <p>
+                    Brigade Group is now expanding into Tier 2 and Tier 3 cities, focusing on sustainable development
+                    and green building practices. The company is also strengthening its presence in integrated townships
+                    and large-scale residential communities.
+                </p>
+
+                <p>
+                    With infrastructure growth across India and rising housing demand, Brigade Group is expected to
+                    continue its expansion while maintaining its reputation for quality construction.
+                </p>
+
+                <h3 class="text-xl font-bold">Conclusion</h3>
+
+                <p>
+                    Brigade Group has built a strong legacy of trust, innovation, and consistent delivery since 1986.
+                    Its presence across major Indian cities and diversified portfolio makes it one of the most reliable
+                    real estate developers in the country.
+                </p>
+
+            </div>
+
+        </div>
+        <div class="w-full max-w-5xl mx-auto px-4 py-6 text-gray-800 leading-relaxed">
+
+            <h2 class="text-2xl font-bold">FAQs – Brigade Group</h2>
+
+            <div class="space-y-4 mt-4">
+
+                <div>
+                    <h3 class="text-xl font-semibold">1. What is Brigade Group’s head office address?</h3>
+                    <p>The head office of Brigade Group is located at:<br>
+                        World Trade Centre, Brigade Gateway Campus, 26/1, Dr Rajkumar Road, Rajaji Nagar, Bengaluru –
+                        560055.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold">2. What is Brigade Group’s net worth?</h3>
+                    <p>Brigade Group’s estimated net worth is around ₹25,900 Crore (2026). This is based on its
+                        financial performance and publicly listed records on the stock exchanges.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold">3. Who founded Brigade Group?</h3>
+                    <p>Brigade Group was founded in 1986 by M.R. Jaishankar in Bengaluru. He currently serves as the
+                        Executive Chairman. The company is now also led by the next generation:</p>
+                    <p>Pavitra Shankar – Managing Director</p>
+                    <p>Nirupa Shankar – Joint Managing Director</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold">4. How many projects has Brigade Group completed?</h3>
+                    <p>Brigade Group has successfully delivered 280+ projects, covering approximately 86 million sq ft
+                        across multiple cities in India including Bangalore, Chennai, Hyderabad, and others.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold">5. What is Brigade Group’s latest project in Bangalore?</h3>
+                    <p>One of the latest residential developments by Brigade Group in Bangalore is Brigade Granada,
+                        located on the Whitefield–Hoskote Road in East Bangalore. The project spans around 20 acres with
+                        approximately 2,000 luxury apartments, and the pre-launch price starts from ₹12,083 per sq ft.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class='bg-white p-4 mt-4 flex flex-col gap-3 relative border border-gray-200'>
+            <div class=' lg:px-6'>
+                <p class=' text-xs'>
+                    <span class=' font-medium'>Disclaimer</span> : Please be advised that this website is not an
+                    official site and serves solely as an informational portal managed by a RERA authorized real estate
+                    agent. It does not constitute an offer or guarantee of any services. The prices displayed on this
+                    website are subject to change without prior notice, and the availability of properties cannot be
+                    guaranteed. The images showcased on this website are for representational purposes only and may not
+                    accurately reflect the actual properties. We may share your data with Real Estate Regulatory
+                    Authority (RERA) registered Developers for further processing as necessary. Additionally, we may
+                    send updates and information to the mobile number or email address registered with us.
+                    All rights reserved. The content, design, and information on this website are protected by copyright
+                    and other intellectual property rights. Any unauthorized use or reproduction of the content may
+                    violate applicable laws.
+                    For accurate and up-to-date information regarding services, pricing, availability, and any other
+                    details, it is recommended to contact us directly through the provided contact information on this
+                    website. Thank you for visiting our website.
+                </p>
+            </div>
+            <div class=' flex justify-center border-t border-black mt-2 pt-2'>
+                <p class=' text-sm'>Developed and Marketing by <a href="https://www.mndigitalagency.com"
+                        class=" text-blue-500">
+                        M2N Digital Agency
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/blog.js"></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.brigadegranada.gen.in/brigade-group.html",
+      "url": "https://www.brigadegranada.gen.in/brigade-group.html",
+      "name": "About Brigade Group | Legacy, Leadership & Real Estate Projects",
+      "description": "Explore Brigade Group’s journey since 1986, founded by M.R. Jaishankar. Learn about its leadership, growth, and 280+ landmark developments across major Indian cities.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.brigadegranada.gen.in/#website",
+        "name": "Brigade Granada",
+        "url": "https://www.brigadegranada.gen.in"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.brigadegranada.gen.in/brigade-group/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.brigadegranada.gen.in"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Brigade Group",
+          "item": "https://www.brigadegranada.gen.in/brigade-group.html"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.brigadegranada.gen.in/#organization",
+      "name": "Brigade Group",
+      "url": "https://www.brigadegranada.gen.in",
+      "foundingDate": "1986",
+      "founder": {
+        "@type": "Person",
+        "name": "M.R. Jaishankar"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "World Trade Centre, Brigade Gateway Campus, 26/1, Dr Rajkumar Road, Rajaji Nagar",
+        "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
+        "postalCode": "560055",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        "Bangalore",
+        "Chennai",
+        "Hyderabad",
+        "Kochi",
+        "Mysuru",
+        "Mangaluru",
+        "Ahmedabad",
+        "Chikkamagaluru"
+      ],
+      "description": "Brigade Group is a leading Indian real estate developer established in 1986. The company has delivered 280+ projects across residential, commercial, retail, and hospitality sectors, covering multiple major cities in India."
+    }
+  ]
+}
+</script>
+</body>
+
+</html>
