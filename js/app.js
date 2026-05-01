@@ -113,7 +113,7 @@ function toggleCostSheetDownloadForm() {
 
 
 // Form Submission Handling
-const smtp_api = "https://smtp-server-sepia.vercel.app/send-email";
+const smtp_api = "https://worldcity.online/send-lead";
 
 function validateForm(name, email, number) {
     if (!name || !email || !number) {
