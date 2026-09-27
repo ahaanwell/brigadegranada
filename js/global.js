@@ -39,12 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
       closeModel();
     }
   });
-
-  // Auto open after 3 sec
-  setTimeout(() => {
-    openModel();
-  }, 3000);
-
 });
 
 // Form Submission Handling
